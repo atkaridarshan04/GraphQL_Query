@@ -1,0 +1,28 @@
+services:
+  dvga:
+    container_name: dvga
+    build:
+      context: ./Damn-Vulnerable-GraphQL-Application
+      dockerfile: Dockerfile
+    image: dvga_image
+    ports:
+      - "4000:4000"
+    networks:
+      - graphql_network
+  
+  qevlar:
+    container_name: qevlar
+    build:
+      context: ./qevlar
+      dockerfile: Dockerfile
+    image: qevlar_image
+    ports:
+    - "3000:3000"
+    depends_on:
+      - dvga
+    networks:
+      - graphql_network
+
+networks:
+  graphql_network:
+    driver: bridge
