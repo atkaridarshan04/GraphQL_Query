@@ -1,6 +1,6 @@
 {
   "ANY_TOP_LEVEL_FIELD_ID": "1",
-  "API_URL": "http://localhost:4000/graphql",
+  "API_URL": "http://dvga:4000/graphql",
   "BATCH_SIZE": 10,
   "CIRCULAR_REF_FIELD": {
     "PasteObject.owner": "OwnerObject",
