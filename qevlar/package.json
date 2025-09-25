@@ -1,0 +1,37 @@
+{
+  "name": "qevlar",
+  "displayName": "Qevlar",
+  "version": "1.0.0",
+  "description": "GraphQL Security Testing Library",
+  "keywords": [
+    "graphql",
+    "API",
+    "security",
+    "testing"
+  ],
+  "icon": "assets/qevlar-logo-black.png",
+  "main": "qevlar",
+  "scripts": {
+    "start": "qevlar",
+    "qevlar": "qevlar",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oslabs-beta/Qevlar"
+  },
+  "author": "Joshua McDaniel jwilliammcdaniel@gmail.com, Conor Bell conorbell27@gmail.com, Hyung Noh johnhyungilnoh@gmail.com, Landon Osteen landonwyatteosteen@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oslabs-beta/Qevlar/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "readme-md-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,1 @@
+docker run -d --name dvga_graphql_container -p 4000:4000 dvga_graphql
